@@ -1,10 +1,10 @@
-// Алксандр Лиман
+// Александр Лиман
 // liman324@yandex.ru
 
 #ifndef TDA7448_H
 #define TDA7448_H
 // address 7 bit
-#define TDA7448_address 0x44 // адрес HEX 88 > 0b10001000 > 7 bit = 0b1000100 = 0x44
+#define TDA7448_address 0b1000100
 
 //Sub addresses
 #define TDA7448_1       0b00000000 
@@ -26,4 +26,5 @@ class TDA7448
 };
 	
 #endif //TDA7448_H
+
 
